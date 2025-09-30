@@ -1,10 +1,5 @@
 <div align="center">
 
-<!-- <h1 style="font-size: 50px;">
-  <img src="assets/occprophet_icon.png" alt="OccProphet Logo" class="occprophet-logo" style="height: 50px;">
-  <span class="occ" style="color: #BE56BE;">Occ</span><span class="prophet" style="color: #75C175;">Prophet</span>
-</h1> -->
-
 <img src="assets/occprophet_logo.png" alt="OccProphet Logo" class="occprophet-logo" style="width: 75%;">
 
 ## OccProphet: Pushing Efficiency Frontier of Camera-Only 4D Occupancy Forecasting with Observer-Forecaster-Refiner Framework
