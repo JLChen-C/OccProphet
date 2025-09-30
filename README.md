@@ -191,10 +191,10 @@ OccProphet
 ```bash
 CUDA_VISIBLE_DEVICES=$YOUR_GPU_IDS PORT=$PORT bash run.sh $CONFIG $NUM_GPUS
 ```
-  - Argument explanation:
-&nbsp;&nbsp;&nbsp;&nbsp;`$YOUR_GPU_IDS`: The GPU ids you want to use
-&nbsp;&nbsp;&nbsp;&nbsp;`$PORT`: The connection port of distributed training
-&nbsp;&nbsp;&nbsp;&nbsp;`$CONFIG`: The config path
+  - Argument explanation:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`$YOUR_GPU_IDS`: The GPU ids you want to use<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`$PORT`: The connection port of distributed training<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`$CONFIG`: The config path<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`$NUM_GPUS`: The number of available GPUs
 
 For example, you can launch the training on GPUs 0, 1, 2, and 3 with the config file `./projects/configs/occprophet/OccProphet_4x1_inf-GMO_nuscenes.py` as follows:
@@ -214,11 +214,11 @@ To launch the evaluation, change your working directory to `$OCCPROPHET_DIR` and
 ```bash
 CUDA_VISIBLE_DEVICES=$YOUR_GPU_IDS PORT=$PORT bash run_eval.sh $CONFIG $CHECKPOINT $NUM_GPUS --evaluate
 ```
-* Argument explanation:
-&nbsp;&nbsp;&nbsp;&nbsp;`$YOUR_GPU_IDS`: The GPU ids you want to use
-&nbsp;&nbsp;&nbsp;&nbsp;`$PORT`: The connection port of distributed evaluation
-&nbsp;&nbsp;&nbsp;&nbsp;`$CONFIG`: The config path
-&nbsp;&nbsp;&nbsp;&nbsp;`$CHECKPOINT`: The checkpoint path
+* Argument explanation:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`$YOUR_GPU_IDS`: The GPU ids you want to use<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`$PORT`: The connection port of distributed evaluation<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`$CONFIG`: The config path<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`$CHECKPOINT`: The checkpoint path<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`$NUM_GPUS`: The number of available GPUs
 
 * For example, you can launch the evaluation on GPUs 0, 1, 2, and 3 with the config file `./projects/configs/occprophet/OccProphet_4x1_inf-GMO_nuscenes.py` as follows:
