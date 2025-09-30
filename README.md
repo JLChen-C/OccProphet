@@ -5,10 +5,10 @@
 ## OccProphet: Pushing Efficiency Frontier of Camera-Only 4D Occupancy Forecasting with Observer-Forecaster-Refiner Framework
 
 <p align="center">
-  <a href="https://github.com/JLChen-C/OccProphet">
-    <img src="https://img.shields.io/badge/OccProphet-Project_Page-_?labelColor=F9F2FE&color=yellow"></a>
+  <a href="https://jlchen-c.github.io/OccProphet/">
+    <img src="https://img.shields.io/badge/OccProphet-Project_Page-_?labelColor=F9F2FE&color=yellow"></a>&nbsp;
   <a href="https://arxiv.org/abs/2502.15180">
-    <img src="https://img.shields.io/badge/Arxiv-_?label=OccProphet&labelColor=F9F2FE&color=red"></a>
+    <img src="https://img.shields.io/badge/Arxiv-_?label=OccProphet&labelColor=F9F2FE&color=red"></a>&nbsp;
   <a href="LICENSE">
     <img src="https://img.shields.io/github/license/JLChen-C/OccProphet?labelColor=F9F2FE"></a>
 </p>
