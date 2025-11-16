@@ -13,7 +13,6 @@ venv/
 *.bin
 *.weights
 data/
-datasets/
 model_checkpoints/
 
 .DS_Store
