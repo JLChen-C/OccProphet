@@ -20,9 +20,9 @@
 OccProphet is a camera-only 4D occupancy forecasting framework, offering high efficiency in both training and inference, with excellent forecasting performance.
 
 OccProphet has the following features:
-- **Flexibility**: OccProphet only relies on camera inputs, making it flexible and can be easily adapted to different traffic scenarios.
-- **High Efficiency**: OccProphet is both training- and inference-friendly, with a lightweight Observer-Forecaster-Refiner pipeline.
-- **High Performance**: OccProphet achieves state-of-the-art performance on three real-world 4D occupancy forecasting datasets: nuScenes, Lyft-Level5 and nuScenes-Occupancy.
+- **Flexibility**: OccProphet only relies on **pure camera inputs**, making it flexible and can be easily adapted to different traffic scenarios.
+- **High Efficiency**: OccProphet is both training- and inference-friendly, with a lightweight Observer-Forecaster-Refiner pipeline. **Minimum 1 RTX 4090 GPU works for training and inference.**
+- **High Performance**: OccProphet achieves **state-of-the-art performance** on three real-world 4D occupancy forecasting datasets: nuScenes, Lyft-Level5 and nuScenes-Occupancy.
 
 
 
