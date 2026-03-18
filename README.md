@@ -301,20 +301,20 @@ The configs and checkpoints of all 5 tasks are released and can be accessed thro
 
 ## 📦 Citation
 
-If you are interested in OccProphet, or find it useful to to your work, please feel free to give us a star ⭐ or cite our paper 😊:
+If you are interested in OccProphet, or find it useful to your work, please feel free to give us a star ⭐ or cite our paper 😊:
 
 ```bibtex
-@article{chen2025occprophet,
+@inproceedings{chen2025occprophet,
   title={Occprophet: Pushing efficiency frontier of camera-only 4d occupancy forecasting with observer-forecaster-refiner framework},
   author={Chen, Junliang and Xu, Huaiyuan and Wang, Yi and Chau, Lap-Pui},
-  journal={arXiv preprint arXiv:2502.15180},
+  booktitle={International Conference on Learning Representations (ICLR)},
   year={2025}
 }
 ```
 
 ## 🤝 Acknowledgement
 
-We thank [Cam4DOcc](https://github.com/haomo-ai/Cam4DOcc) for their significant contribution to end-to-end 4D occupancy forecasting community. We develop our codebase upon their excellent work.
+We thank [Cam4DOcc](https://github.com/haomo-ai/Cam4DOcc) for their significant contribution to an end-to-end 4D occupancy forecasting community. We develop our codebase upon their excellent work.
 
 ## 🌱 Related Works
 
